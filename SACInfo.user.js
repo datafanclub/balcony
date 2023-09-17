@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name        SACInfo
+// @name        SACRegInfo
 // @namespace   Violentmonkey Scripts
 // @match       https://gs.sac.net.cn/pages/registration/sac-publicity-report.html
 // @require     https://cdn.staticfile.org/xlsx/0.18.5/xlsx.full.min.js
 // @require     https://cdn.staticfile.org/jszip/3.10.1/jszip.min.js
 // @grant       GM_xmlhttpRequest
 // @version     1.0
-// @author      lx
+// @author      L.X.
 // @license     MIT
 // @description 2023/9/15 18:21:28
 // ==/UserScript==
@@ -14,10 +14,8 @@
 (function () {
   "use strict";
   var oldElement = document.querySelector("input.input")
-  // 创建一个新的元素
   var newElement = document.createElement("div");
   newElement.innerHTML = '<input type="button" class="input" onclick="searchList()" value="查询"><input type="button" id="output" class="input" value="导出">';
-  // 用新元素替换旧元素
   oldElement.parentNode.replaceChild(newElement, oldElement);
   var button1 = document.getElementById("output");
   button1.addEventListener("click", downloadExcel);
@@ -25,7 +23,6 @@
  
 // 将工作簿写入Excel文件并下载
 function downloadExcel() {
-  // 示例JSON数据
   GM_xmlhttpRequest({
     method: "POST",
     url: 'https://gs.sac.net.cn/publicity/getOrgStat?orgType=10',
@@ -44,13 +41,12 @@ function downloadExcel() {
       }
     },
     onerror: function (response) {
-      reject("请求失败");
+      console.log("请求失败");
     },
   });
 }
  
 function convertJsonToExcel(jsonData) {
-  // Your JSON data
   const excelFileName = "SACRegInfo_"+ getCurrentTime() + ".xlsx";
   const newJsonData = jsonData.map((dataItem) => (
     {
