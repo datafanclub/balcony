@@ -1,0 +1,36 @@
+[Adblock Plus 2.0]
+! Title: UXNIL'S AD BLOCK LIST
+
+mail.163.com##div.mailgg
+mail.163.com##div[title="广告区"]
+tieba.baidu.com##div#fixed_bar
+tieba.baidu.com##a.j_click_stats
+tieba.baidu.com##div[id^="mediago-tb-frs-list"]
+tieba.baidu.com##ul.tbui_slideshow_list
+mini.eastday.com##div#iSlider-wrapper
+
+! 2023-12-30 https://weibo.com
+weibo.com##.woo-picture-slot
+
+! 2024-03-16 https://newsupport.lenovo.com.cn
+newsupport.lenovo.com.cn##.lnv-dialog
+newsupport.lenovo.com.cn##.lnv-mask
+
+! 2024-03-25 https://finance.sina.com.cn
+finance.sina.com.cn## #SFA_NV_POP
+finance.sina.com.cn## div.m-p1-lb2_5
+
+! 2024-03-31 https://www.zhihu.com
+www.zhihu.com##.Pc-feedAd-container
+www.zhihu.com##div.AdvertImg
+
+! 2024-04-03
+hexun.com##div.art_contextBox:style(height: 100% !important;)
+hexun.com##div.showall_img
+hexun.com##div.showAll
+hexun.com##div.bottomLayer
+!www.baidu.com##div.s-news-list-wrapper
+www.baidu.com##div.water-container
+
+! 2024-04-12
+fund.eastmoney.com##div#referAd

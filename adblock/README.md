@@ -1,0 +1,1 @@
+- 订阅地址：https://mirror.ghproxy.com/https://raw.githubusercontent.com/datafanclub/balcony/main/adblock/uxnil-ublock-static-filters.txt
