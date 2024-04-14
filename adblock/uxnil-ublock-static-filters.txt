@@ -34,3 +34,6 @@ www.baidu.com##div.water-container
 
 ! 2024-04-12
 fund.eastmoney.com##div#referAd
+
+! 2024-04-14 https://www.newsmth.net
+www.newsmth.net###banner_slider
