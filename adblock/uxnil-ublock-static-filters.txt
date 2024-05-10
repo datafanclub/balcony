@@ -37,3 +37,10 @@ fund.eastmoney.com##div#referAd
 
 ! 2024-04-14 https://www.newsmth.net
 www.newsmth.net###banner_slider
+
+! 2024-05-09 https://mail.126.com
+mail.126.com##.nui-closeable
+
+! 2024-05-09 https://mail.126.com
+mail.126.com##div[title*="广告"]
+mail.126.com##div[id*="dvReadYad"]
