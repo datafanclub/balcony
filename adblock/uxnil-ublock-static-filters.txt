@@ -44,3 +44,6 @@ mail.126.com##.nui-closeable
 ! 2024-05-09 https://mail.126.com
 mail.126.com##div[title*="广告"]
 mail.126.com##div[id*="dvReadYad"]
+
+! 2024-09-19
+/lib/plugin/gwm.js
